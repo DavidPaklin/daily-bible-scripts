@@ -1,8 +1,8 @@
 name: Send Push
 
 on:
-  schedule:
-    - cron: "5,15,25,35,45,55 * * * *"
+  repository_dispatch:
+    types: [10-min-trigger]
   workflow_dispatch:
 
 jobs:
