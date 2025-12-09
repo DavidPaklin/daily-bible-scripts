@@ -97,7 +97,7 @@ async function run() {
     const batch = tokens.slice(i, i + BATCH_SIZE);
     const message = {
       tokens: batch,
-      notification: {
+      data: {
         title: "Нагадування!",
         body: "Не забудь прочитати Біблію :)",
         imageUrl:
