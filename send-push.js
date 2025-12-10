@@ -100,8 +100,6 @@ async function run() {
       data: {
         title: "Нагадування!",
         body: "Не забудь прочитати Біблію :)",
-        imageUrl:
-          "https://img.freepik.com/premium-photo/cool-blue-background-with-silver-cross-outlined-white-crisp-serene-design_1046450-30328.jpg?w=360",
       },
     };
 
