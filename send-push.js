@@ -99,7 +99,7 @@ async function run() {
       tokens: batch,
       data: {
         title: "Нагадування!",
-        body: "Не забудь прочитати Біблію :)",
+        body: "Не забудь почитати Біблію :)",
       },
     };
 
