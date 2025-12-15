@@ -4,7 +4,7 @@ import { getMessaging } from "firebase-admin/messaging";
 import { DateTime } from "luxon";
 
 const TZ = "Europe/Kyiv";
-const WINDOW_MINUTES = 12;
+const WINDOW_MINUTES = 2;
 const BATCH_SIZE = 500;
 const CLEAN_INVALID = true;
 const NOTIFICATIONS_COLLECTION = "notifications";
